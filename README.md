@@ -38,8 +38,8 @@ Website de portfólio profissional bilíngue (PT/EN), responsivo e acessível, q
 
 ## 3. 🔗 Links Úteis
 
-- 🌐 **Site publicado:** https://maria-brito15.github.io/portfolio-react-vite/
-- 📦 **Repositório:** https://github.com/maria-brito15/portfolio-react-vite
+- 🌐 **Site publicado:** https://maria-brito15.github.io/portfolio-diaw/
+- 📦 **Repositório:** https://github.com/maria-brito15/portfolio-diaw
 - 🎨 **Wireframes (média fidelidade):** [`/docs/wireframes`](docs/wireframes) — importáveis no Figma (ver [Demonstração](#11--demonstração))
 
 ---
@@ -56,8 +56,8 @@ Este trabalho tem duas versões do portfólio:
 
 | Repositório | Descrição |
 | --- | --- |
-| [`portfolio-react-vite`](https://github.com/maria-brito15/portfolio-react-vite) | **Este projeto** — versão enxuta e finalizada, entregue no Trabalho Prático 1. |
-| [`portfolio-diaw`](https://github.com/maria-brito15/portfolio-diaw) | Versão mais complexa (terminal interativo, desenvolvida com SDD), que não foi finalizada a tempo da entrega. |
+| [`portfolio-diaw`](https://github.com/maria-brito15/portfolio-diaw) | **Este projeto** — versão enxuta e finalizada, entregue no Trabalho Prático 1. |
+| [`portfolio-react-vite`](https://github.com/maria-brito15/portfolio-react-vite) | Versão mais complexa (terminal interativo, desenvolvida com SDD), que não foi finalizada a tempo da entrega. |
 
 ---
 
@@ -141,8 +141,8 @@ cp .env.example .env.local
 ### Instalação de dependências
 
 ```bash
-git clone https://github.com/maria-brito15/portfolio-react-vite.git
-cd portfolio-react-vite
+git clone https://github.com/maria-brito15/portfolio-diaw.git
+cd portfolio-diaw
 npm install
 ```
 
@@ -160,10 +160,10 @@ npm run lint      # análise estática
 ## 9. 🚀 Deploy
 
 ### GitHub Pages (GitHub Actions)
-1. Faça push para a branch `main` do repositório `portfolio-react-vite`.
+1. Faça push para a branch `main` do repositório `portfolio-diaw`.
 2. Em **Settings → Pages**, selecione **Source: GitHub Actions**.
 3. Em **Settings → Secrets and variables → Actions**, cadastre os _secrets_ `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, `VITE_EMAILJS_PUBLIC_KEY` e `VITE_WHATSAPP_NUMBER`.
-4. O workflow `.github/workflows/deploy.yml` faz o build e publica em `https://maria-brito15.github.io/portfolio-react-vite/` a cada push na `main`.
+4. O workflow `.github/workflows/deploy.yml` faz o build e publica em `https://maria-brito15.github.io/portfolio-diaw/` a cada push na `main`.
 
 O `vite.config.ts` usa `base: './'` e o roteamento é por hash (`HashRouter`), portanto o site funciona no subcaminho do Pages sem regras de rewrite.
 

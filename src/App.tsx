@@ -7,7 +7,7 @@ import Experience from './pages/Experience'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
-// HashRouter: funciona em Vercel, Render e GitHub Pages sem regras de rewrite.
+// HashRouter: funciona no GitHub Pages sem regras de rewrite.
 export default function App() {
   return (
     <LangProvider>

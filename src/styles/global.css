@@ -2,16 +2,16 @@
 :root {
   --navy: #17222d;
   --sage: #e8ebe2;
-  --cobalt: #2a44e8;
+  --cobalt: #3f5b8c;
   --yellow: #f2c14e;
 
   --bg: var(--sage);
   --fg: var(--navy);
   --muted: #4b5661;
-  --link: #2a44e8;
+  --link: #2f4a82;
   --mark-bg: var(--yellow);
   --mark-fg: var(--navy);
-  --focus: #2a44e8;
+  --focus: #2f4a82;
   --bad: #b3261e;
 
   --display: 'Familjen Grotesk Variable', 'Helvetica Neue', Arial, sans-serif;
@@ -19,7 +19,7 @@
   color-scheme: light;
 }
 :root[data-page='projetos'] {
-  --bg: var(--cobalt); --fg: #f4f1e8; --muted: #d6dcfb; --link: #ffd65a;
+  --bg: var(--cobalt); --fg: #f4f1e8; --muted: #d3dbea; --link: #ffd65a;
   --mark-bg: var(--yellow); --mark-fg: var(--navy); --focus: #ffd65a; --bad: #ffd0c8;
 }
 :root[data-page='experiencias'] {
