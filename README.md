@@ -174,7 +174,9 @@ O `vite.config.ts` usa `base: './'` e o roteamento é por hash (`HashRouter`), p
 ```
 .
 ├── .github/workflows/           # ci.yml (lint + build) e deploy.yml (GitHub Pages)
-├── docs/wireframes/             # wireframes de média fidelidade (SVG → Figma)
+├── docs/
+│   ├── wireframes/              # wireframes de média fidelidade (SVG → Figma)
+│   └── screens/                 # capturas de tela (desktop e mobile)
 ├── public/
 │   └── favicon.svg
 ├── src/
@@ -207,7 +209,17 @@ Para usar no Figma: arraste os arquivos `.svg` de `docs/wireframes` para um fram
 
 ### Telas do site
 
-> Adicione aqui capturas/GIFs do site publicado (ex.: `docs/screens/home.png`).
+| Sobre Mim | Projetos |
+| --- | --- |
+| ![Sobre Mim](docs/screens/sobre-mim.png) | ![Projetos](docs/screens/projetos.png) |
+| **Experiências** | **Contato** |
+| ![Experiências](docs/screens/experiencias.png) | ![Contato](docs/screens/contato.png) |
+
+Versão mobile (390 px):
+
+| Sobre Mim | Projetos | Experiências | Contato |
+| --- | --- | --- | --- |
+| ![Sobre Mim](docs/screens/sobre-mim-mobile.png) | ![Projetos](docs/screens/projetos-mobile.png) | ![Experiências](docs/screens/experiencias-mobile.png) | ![Contato](docs/screens/contato-mobile.png) |
 
 ---
 
