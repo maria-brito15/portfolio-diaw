@@ -20,7 +20,6 @@ export const ui = {
     bio: { pt: 'Apresentação', en: 'Introduction' } as L,
     area: { pt: 'Área de atuação', en: 'Focus area' } as L,
     focus: { pt: 'Foco atual', en: 'Current focus' } as L,
-    interests: { pt: 'Interesses', en: 'Interests' } as L,
     goal: { pt: 'Objetivo profissional', en: 'Professional goal' } as L,
     education: { pt: 'Formação', en: 'Education' } as L,
     languages: { pt: 'Idiomas', en: 'Languages' } as L,
